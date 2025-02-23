@@ -10,7 +10,11 @@ return new class () extends Migration {
         if (! Schema::hasTable('instant_notifiers')) {
             Schema::create('instant_notifiers', function (Blueprint $table) {
                 $table->id();
-                $table->string('name', 255);
+                $table->string('name', 500);
+                $table->string('message');
+                $table->string('message_type', 100);
+                $table->string('message_status', 100)->default('pending');
+                $table->string('response');
                 $table->string('status', 60)->default('published');
                 $table->timestamps();
             });
