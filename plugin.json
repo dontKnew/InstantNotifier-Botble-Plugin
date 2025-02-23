@@ -1,0 +1,11 @@
+{
+    "id": "phpmaster/instantnotifier",
+    "name": "InstantNotifier",
+    "namespace": "Botble\\InstantNotifier\\",
+    "provider": "Botble\\InstantNotifier\\Providers\\InstantNotifierServiceProvider",
+    "author": "PHP Master",
+    "url": "https://github.com/dontKnew/",
+    "version": "1.0.0",
+    "description": "InstantNotifier is a plugin that allows you receive notifications instantly in android  phone",
+    "minimum_core_version": "7.2.4"
+}
